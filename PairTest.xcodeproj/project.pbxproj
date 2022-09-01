@@ -16,6 +16,9 @@
 		E6A7790D28B8CC8A00E5717B /* PairTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A7790C28B8CC8A00E5717B /* PairTestTests.swift */; };
 		E6A7791728B8CC8A00E5717B /* PairTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A7791628B8CC8A00E5717B /* PairTestUITests.swift */; };
 		E6A7791928B8CC8A00E5717B /* PairTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A7791828B8CC8A00E5717B /* PairTestUITestsLaunchTests.swift */; };
+		E6F0B94928C10AD800436EDB /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0B94828C10AD800436EDB /* ToggleButton.swift */; };
+		E6F0B94B28C10AFE00436EDB /* StopCLockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0B94A28C10AFE00436EDB /* StopCLockViewModel.swift */; };
+		E6F0B94D28C1178700436EDB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F0B94C28C1178700436EDB /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E6A7791228B8CC8A00E5717B /* PairTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A7791628B8CC8A00E5717B /* PairTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairTestUITests.swift; sourceTree = "<group>"; };
 		E6A7791828B8CC8A00E5717B /* PairTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E6F0B94828C10AD800436EDB /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		E6F0B94A28C10AFE00436EDB /* StopCLockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCLockViewModel.swift; sourceTree = "<group>"; };
+		E6F0B94C28C1178700436EDB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				E6A778FE28B8CC8A00E5717B /* Assets.xcassets */,
 				E6A7790028B8CC8A00E5717B /* LaunchScreen.storyboard */,
 				E6A7790328B8CC8A00E5717B /* Info.plist */,
+				E6F0B94828C10AD800436EDB /* ToggleButton.swift */,
+				E6F0B94A28C10AFE00436EDB /* StopCLockViewModel.swift */,
+				E6F0B94C28C1178700436EDB /* Extension.swift */,
 			);
 			path = PairTest;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			files = (
 				E6A778FA28B8CC8A00E5717B /* ViewController.swift in Sources */,
 				E6A778F628B8CC8A00E5717B /* AppDelegate.swift in Sources */,
+				E6F0B94B28C10AFE00436EDB /* StopCLockViewModel.swift in Sources */,
+				E6F0B94D28C1178700436EDB /* Extension.swift in Sources */,
 				E6A778F828B8CC8A00E5717B /* SceneDelegate.swift in Sources */,
+				E6F0B94928C10AD800436EDB /* ToggleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
