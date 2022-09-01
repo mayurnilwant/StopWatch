@@ -105,16 +105,14 @@
 		E6A778F428B8CC8A00E5717B /* PairTest */ = {
 			isa = PBXGroup;
 			children = (
-				E6A778F528B8CC8A00E5717B /* AppDelegate.swift */,
-				E6A778F728B8CC8A00E5717B /* SceneDelegate.swift */,
-				E6A778F928B8CC8A00E5717B /* StopWatchViewController.swift */,
-				E6A778FB28B8CC8A00E5717B /* Main.storyboard */,
+				E6F0B95328C11DE900436EDB /* Interfaces */,
+				E6F0B95228C11DDD00436EDB /* View Controller */,
+				E6F0B95128C11DCE00436EDB /* Extension */,
+				E6F0B95028C11DBC00436EDB /* Custom */,
+				E6F0B94F28C11DAD00436EDB /* View Model */,
+				E6F0B94E28C11D9600436EDB /* App Delegate */,
 				E6A778FE28B8CC8A00E5717B /* Assets.xcassets */,
-				E6A7790028B8CC8A00E5717B /* LaunchScreen.storyboard */,
 				E6A7790328B8CC8A00E5717B /* Info.plist */,
-				E6F0B94828C10AD800436EDB /* ToggleButton.swift */,
-				E6F0B94A28C10AFE00436EDB /* StopCLockViewModel.swift */,
-				E6F0B94C28C1178700436EDB /* Extension.swift */,
 			);
 			path = PairTest;
 			sourceTree = "<group>";
@@ -134,6 +132,56 @@
 				E6A7791828B8CC8A00E5717B /* PairTestUITestsLaunchTests.swift */,
 			);
 			path = PairTestUITests;
+			sourceTree = "<group>";
+		};
+		E6F0B94E28C11D9600436EDB /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E6A778F528B8CC8A00E5717B /* AppDelegate.swift */,
+				E6A778F728B8CC8A00E5717B /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		E6F0B94F28C11DAD00436EDB /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6F0B94A28C10AFE00436EDB /* StopCLockViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		E6F0B95028C11DBC00436EDB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				E6F0B94828C10AD800436EDB /* ToggleButton.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		E6F0B95128C11DCE00436EDB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E6F0B94C28C1178700436EDB /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E6F0B95228C11DDD00436EDB /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6A778F928B8CC8A00E5717B /* StopWatchViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		E6F0B95328C11DE900436EDB /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				E6A778FB28B8CC8A00E5717B /* Main.storyboard */,
+				E6A7790028B8CC8A00E5717B /* LaunchScreen.storyboard */,
+			);
+			path = Interfaces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
