@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E6A778F628B8CC8A00E5717B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A778F528B8CC8A00E5717B /* AppDelegate.swift */; };
 		E6A778F828B8CC8A00E5717B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A778F728B8CC8A00E5717B /* SceneDelegate.swift */; };
-		E6A778FA28B8CC8A00E5717B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A778F928B8CC8A00E5717B /* ViewController.swift */; };
+		E6A778FA28B8CC8A00E5717B /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A778F928B8CC8A00E5717B /* StopWatchViewController.swift */; };
 		E6A778FD28B8CC8A00E5717B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A778FB28B8CC8A00E5717B /* Main.storyboard */; };
 		E6A778FF28B8CC8A00E5717B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A778FE28B8CC8A00E5717B /* Assets.xcassets */; };
 		E6A7790228B8CC8A00E5717B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A7790028B8CC8A00E5717B /* LaunchScreen.storyboard */; };
@@ -39,17 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E6A778F228B8CC8A00E5717B /* PairTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PairTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A778F228B8CC8A00E5717B /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A778F528B8CC8A00E5717B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6A778F728B8CC8A00E5717B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6A778F928B8CC8A00E5717B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6A778F928B8CC8A00E5717B /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
 		E6A778FC28B8CC8A00E5717B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6A778FE28B8CC8A00E5717B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6A7790128B8CC8A00E5717B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6A7790328B8CC8A00E5717B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6A7790828B8CC8A00E5717B /* PairTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A7790828B8CC8A00E5717B /* StopWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A7790C28B8CC8A00E5717B /* PairTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairTestTests.swift; sourceTree = "<group>"; };
-		E6A7791228B8CC8A00E5717B /* PairTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A7791228B8CC8A00E5717B /* StopWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A7791628B8CC8A00E5717B /* PairTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairTestUITests.swift; sourceTree = "<group>"; };
 		E6A7791828B8CC8A00E5717B /* PairTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E6F0B94828C10AD800436EDB /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
@@ -95,9 +95,9 @@
 		E6A778F328B8CC8A00E5717B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E6A778F228B8CC8A00E5717B /* PairTest.app */,
-				E6A7790828B8CC8A00E5717B /* PairTestTests.xctest */,
-				E6A7791228B8CC8A00E5717B /* PairTestUITests.xctest */,
+				E6A778F228B8CC8A00E5717B /* StopWatch.app */,
+				E6A7790828B8CC8A00E5717B /* StopWatchTests.xctest */,
+				E6A7791228B8CC8A00E5717B /* StopWatchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,7 +107,7 @@
 			children = (
 				E6A778F528B8CC8A00E5717B /* AppDelegate.swift */,
 				E6A778F728B8CC8A00E5717B /* SceneDelegate.swift */,
-				E6A778F928B8CC8A00E5717B /* ViewController.swift */,
+				E6A778F928B8CC8A00E5717B /* StopWatchViewController.swift */,
 				E6A778FB28B8CC8A00E5717B /* Main.storyboard */,
 				E6A778FE28B8CC8A00E5717B /* Assets.xcassets */,
 				E6A7790028B8CC8A00E5717B /* LaunchScreen.storyboard */,
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E6A778F128B8CC8A00E5717B /* PairTest */ = {
+		E6A778F128B8CC8A00E5717B /* StopWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6A7791C28B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "PairTest" */;
+			buildConfigurationList = E6A7791C28B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "StopWatch" */;
 			buildPhases = (
 				E6A778EE28B8CC8A00E5717B /* Sources */,
 				E6A778EF28B8CC8A00E5717B /* Frameworks */,
@@ -151,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = PairTest;
+			name = StopWatch;
 			productName = PairTest;
-			productReference = E6A778F228B8CC8A00E5717B /* PairTest.app */;
+			productReference = E6A778F228B8CC8A00E5717B /* StopWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E6A7790728B8CC8A00E5717B /* PairTestTests */ = {
+		E6A7790728B8CC8A00E5717B /* StopWatchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6A7791F28B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "PairTestTests" */;
+			buildConfigurationList = E6A7791F28B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "StopWatchTests" */;
 			buildPhases = (
 				E6A7790428B8CC8A00E5717B /* Sources */,
 				E6A7790528B8CC8A00E5717B /* Frameworks */,
@@ -169,14 +169,14 @@
 			dependencies = (
 				E6A7790A28B8CC8A00E5717B /* PBXTargetDependency */,
 			);
-			name = PairTestTests;
+			name = StopWatchTests;
 			productName = PairTestTests;
-			productReference = E6A7790828B8CC8A00E5717B /* PairTestTests.xctest */;
+			productReference = E6A7790828B8CC8A00E5717B /* StopWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E6A7791128B8CC8A00E5717B /* PairTestUITests */ = {
+		E6A7791128B8CC8A00E5717B /* StopWatchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6A7792228B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "PairTestUITests" */;
+			buildConfigurationList = E6A7792228B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "StopWatchUITests" */;
 			buildPhases = (
 				E6A7790E28B8CC8A00E5717B /* Sources */,
 				E6A7790F28B8CC8A00E5717B /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				E6A7791428B8CC8A00E5717B /* PBXTargetDependency */,
 			);
-			name = PairTestUITests;
+			name = StopWatchUITests;
 			productName = PairTestUITests;
-			productReference = E6A7791228B8CC8A00E5717B /* PairTestUITests.xctest */;
+			productReference = E6A7791228B8CC8A00E5717B /* StopWatchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E6A778ED28B8CC8A00E5717B /* Build configuration list for PBXProject "PairTest" */;
+			buildConfigurationList = E6A778ED28B8CC8A00E5717B /* Build configuration list for PBXProject "StopWatch" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +228,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E6A778F128B8CC8A00E5717B /* PairTest */,
-				E6A7790728B8CC8A00E5717B /* PairTestTests */,
-				E6A7791128B8CC8A00E5717B /* PairTestUITests */,
+				E6A778F128B8CC8A00E5717B /* StopWatch */,
+				E6A7790728B8CC8A00E5717B /* StopWatchTests */,
+				E6A7791128B8CC8A00E5717B /* StopWatchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6A778FA28B8CC8A00E5717B /* ViewController.swift in Sources */,
+				E6A778FA28B8CC8A00E5717B /* StopWatchViewController.swift in Sources */,
 				E6A778F628B8CC8A00E5717B /* AppDelegate.swift in Sources */,
 				E6F0B94B28C10AFE00436EDB /* StopCLockViewModel.swift in Sources */,
 				E6F0B94D28C1178700436EDB /* Extension.swift in Sources */,
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		E6A7790A28B8CC8A00E5717B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E6A778F128B8CC8A00E5717B /* PairTest */;
+			target = E6A778F128B8CC8A00E5717B /* StopWatch */;
 			targetProxy = E6A7790928B8CC8A00E5717B /* PBXContainerItemProxy */;
 		};
 		E6A7791428B8CC8A00E5717B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E6A778F128B8CC8A00E5717B /* PairTest */;
+			target = E6A778F128B8CC8A00E5717B /* StopWatch */;
 			targetProxy = E6A7791328B8CC8A00E5717B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -511,7 +511,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PairTest.app/PairTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StopWatch.app/StopWatch";
 			};
 			name = Debug;
 		};
@@ -530,7 +530,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PairTest.app/PairTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StopWatch.app/StopWatch";
 			};
 			name = Release;
 		};
@@ -571,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E6A778ED28B8CC8A00E5717B /* Build configuration list for PBXProject "PairTest" */ = {
+		E6A778ED28B8CC8A00E5717B /* Build configuration list for PBXProject "StopWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6A7791A28B8CC8A00E5717B /* Debug */,
@@ -580,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6A7791C28B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "PairTest" */ = {
+		E6A7791C28B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "StopWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6A7791D28B8CC8A00E5717B /* Debug */,
@@ -589,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6A7791F28B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "PairTestTests" */ = {
+		E6A7791F28B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "StopWatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6A7792028B8CC8A00E5717B /* Debug */,
@@ -598,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6A7792228B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "PairTestUITests" */ = {
+		E6A7792228B8CC8A00E5717B /* Build configuration list for PBXNativeTarget "StopWatchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6A7792328B8CC8A00E5717B /* Debug */,
