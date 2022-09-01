@@ -31,6 +31,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+       
         self.lblTitle.text = Bundle().displayName
         // Do any additional setup after loading the view.
         self.configureStopWatchVM()
@@ -40,7 +42,10 @@ class ViewController: UIViewController {
         
         self.stopWatchVM = StopWatchVM(withCallback: { displayString in
             
-            self.lblStopwatch.text = displayString
+            DispatchQueue.main.async {
+                self.lblStopwatch.text = displayString
+            }
+            
         })
         
         self.stopWatchVM?.callButtonTitle = { (title) in
@@ -52,7 +57,6 @@ class ViewController: UIViewController {
 
     
     @IBAction func toggle() {
-        
         
         self.stopWatchVM?.toggle()
         
